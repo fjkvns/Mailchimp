@@ -1,0 +1,89 @@
+.header{
+    height: 85px;
+    width: 100%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.header div, .header nav{
+
+    height: 85px;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+.nav__list {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav__link {
+    color: #241C15;
+    text-decoration: none;
+    margin-right: 44px;
+    font-size: 14px;
+    line-height: 14px;
+}
+.header__logo-container{
+    display: flex;
+    justify-content: center;
+}
+.header__logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    display: flex;
+    align-self: center;
+}
+.header__logo::before {
+    content: url(../imgs/monkey.png);
+    display: inline-block;
+    width: 50px;
+    height: 34px;
+    position: relative;
+    top: -10px;
+}
+.header__buttons {
+    display: flex;
+    justify-content: end;
+
+}
+.header-btn:hover{
+    opacity: 0.95;
+    transform: translateY(-1px);
+    transition: .15s ease-in;
+}
+.header-btn{
+    text-decoration: none;
+}
+.button-list{
+    list-style: none;
+}
+.buttons__links {
+
+    display: inline-block;
+}
+.login-link {
+    display: block;
+    color: #241C15;
+    border: 1px solid black;
+    padding: 12px 29px 12px 29px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    margin-right: 24px;
+}
+.signup-link {
+    display: block;
+    color: #fff;
+    background-color: #007C89;
+    padding: 12px 16px 12px 16px;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 45px;
+}
+
+
