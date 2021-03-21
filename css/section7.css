@@ -1,0 +1,46 @@
+.sect7 {
+    min-height: 577px;
+    background-color: #692340;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sect7__bgtext {
+    font-size: 74px;
+    font-weight: normal;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FBEECA;
+    margin-top: 114px;
+    margin-bottom: 0;
+}
+.sect7__medtext {
+    margin-top: 36px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FBEECA;
+}
+.sect7-btn {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #692340;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color: #FBEECA;
+    transition: .2s ease-in;
+}
+.sect7-btn:hover{
+    transform: translateY(-2px);
+    transition: .4s ease-in;
+}
+.sect7__btn-info {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FBEECA;
+}

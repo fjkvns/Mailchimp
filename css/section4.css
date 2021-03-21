@@ -1,0 +1,40 @@
+.sect4 {
+    width: 100%;
+    padding: 0 10px 0 30px;
+}
+.sect4__heading {
+    font-size: 52px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #692340;
+}
+.sect4__customersrews {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sect4__imgblock{
+
+}
+.customer {
+}
+.sect4__cust-text {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 1440px;
+    height: auto;
+}
+.cust__text-big {
+    display: block;
+    width: 500px;
+    font-size: 40px;
+    line-height: 44px;
+    color: #692340;
+}
+.cust__text-lil {
+    font-size: 16px;
+    line-height: 22px;
+    color: #692340;
+}

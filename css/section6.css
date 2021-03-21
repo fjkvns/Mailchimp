@@ -1,0 +1,88 @@
+.sect6 {
+    min-height: 1191px;
+    flex-basis: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+}
+.sect6__bgtext {
+    font-size: 50px;
+    line-height: 55px;
+    text-align: center;
+    color: #692340;
+}
+.sect6__imgblocks {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.sect6__card {
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 5px;
+}
+.sect6__card-toptext {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 55px;
+    color: #692340;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.sect6__card-medtext {
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 30px;
+    color: #692340;
+    margin-top: 0;
+    margin-bottom: 13px;
+}
+.sect6__card-bottext {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 29px;
+    color: #692340;
+}
+.sect6__card img{
+    transition: .3s ease-in;
+}
+.sect6__card img:hover{
+    scale: 1.015;
+    transition: .25s ease-in;
+}
+.sect6__buttonblock {
+    margin-top: 54px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.sect6__btnblock1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sect6__btntext {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #692340;
+}
+.sect5-btn {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #692340;
+}
+.sect6__btnblock2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

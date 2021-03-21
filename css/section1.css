@@ -14,7 +14,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     max-width: 1440px;
-    height: 100%;
+    min-width: none;
 }
 .sect1-top {
     height: 54px;

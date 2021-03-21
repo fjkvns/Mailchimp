@@ -23,6 +23,16 @@
     text-align: center;
     color: #692340;
 }
+.sect2-bigtext::before{
+    content: url(../../bello/imgs/card1.png);
+    width: auto;
+    height: auto;
+    position: absolute;
+    display: block;
+    margin-top: -80px;
+    left: 50%;
+}
+
 .sect2-cards {
     display: flex;
     flex-direction: row;
@@ -46,7 +56,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 75%;
+    width: 100%;
     background-color: rgba(237, 244, 255, .5);
 }
 .sect2-custom__img {
@@ -102,4 +112,13 @@
     line-height: 30px;
     text-align: center;
     color: #692340;
+}
+
+
+.sect2__card img{
+    transition: .2s ease-in;
+}
+.sect2__card img:hover{
+    rotate: 2deg;
+    transition: .2s ease-in;
 }
